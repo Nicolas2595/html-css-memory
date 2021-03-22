@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:#add8e6 ;
+    font-family: 'Nerko One', cursive;
+    margin: 0 20%;
+}
+
+/* Header */
+h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+/* Main */
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+   height: 80%;
+    background-color: red;
+    margin-top: 35px;
+}
+
+.card {
+    margin: 10px;          
+    float: left;
+    width: calc(100% / 4 - 20px);
+    height: 250px;
+    background: red;
+    border-radius: 10px;
+}
